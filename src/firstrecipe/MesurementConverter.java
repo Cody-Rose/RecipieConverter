@@ -99,87 +99,82 @@ public class MesurementConverter
             if(gallon > 0)
             {
                 measurement = Integer.toString(gallon);
-                measurement = measurement + " gallons\n";
+                measurement = measurement + " gallons ";
                 unit[count] = measurement;
                 count++;
             }
             if(quart > 0)
             {
                 measurement = Integer.toString(quart);
-                measurement = measurement + " quarts\n";
+                measurement = measurement + " quarts ";
                 unit[count] = measurement;
                 count++;
             }
             if(pint > 0)
             {
                 measurement = Integer.toString(pint);
-                measurement = measurement + " pints\n";
+                measurement = measurement + " pints ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup > 0)
             {
                 measurement = Integer.toString(cup);
-                measurement = measurement + " cups\n";
+                measurement = measurement + " cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup3to4 > 0)
             {
                 measurement = Integer.toString(cup3to4);
-                measurement = measurement + " 3/4 cups\n";
+                measurement = measurement + " 3/4Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to2 > 0)
             {
                 measurement = Integer.toString(cup1to2);
-                measurement = measurement + " 1/2 cups\n";
+                measurement = measurement + " 1/2Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to4 > 0)
             {
                 measurement = Integer.toString(cup1to4);
-                measurement = measurement + " 1/4 cups\n";
+                measurement = measurement + " 1/4Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to8 > 0)
             {
                 measurement = Integer.toString(cup1to8);
-                measurement = measurement + " 1/8 cups\n";
-                unit[count] = measurement;
-                count++;
-            }
-            if(tbs > 0)
-            {
-                measurement = Integer.toString(tbs);
-                measurement = measurement + " tablespoons\n";
+                measurement = measurement + " 1/8Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(tsp > 0)
             {
                 measurement = Integer.toString(tsp);
-                measurement = measurement + " teaspoons\n";
+                measurement = measurement + " teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
+            /**
             if(tsp1to2 > 0)
             {
                 measurement = Integer.toString(tsp1to2);
-                measurement = measurement + " 1/2 teaspoons\n";
+                measurement = measurement + " 1/2Teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
             if(tsp1to4 > 0)
             {
                 measurement = Integer.toString(tsp1to4);
-                measurement = measurement + " 1/4 teaspoons\n";
+                measurement = measurement + " 1/4Teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
+            */
             count = 0;
             
             while(!(empty.equals(unit[count])))//Will add everything in the array
@@ -191,7 +186,7 @@ public class MesurementConverter
         }
         else//Doesnt need conversion
         {
-            answer = "A pinch";
+            answer = "Pinch";
         }
         
         return answer;//Returns converted item or not converted.
@@ -265,84 +260,84 @@ public class MesurementConverter
             if(gallon > 0)
             {
                 measurement = Integer.toString(gallon);
-                measurement = measurement + " gallons\n";
+                measurement = measurement + " gallons ";
                 unit[count] = measurement;
                 count++;
             }
             if(quart > 0)
             {
                 measurement = Integer.toString(quart);
-                measurement = measurement + " quarts\n";
+                measurement = measurement + " quarts ";
                 unit[count] = measurement;
                 count++;
             }
             if(pint > 0)
             {
                 measurement = Integer.toString(pint);
-                measurement = measurement + " pints\n";
+                measurement = measurement + " pints ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup > 0)
             {
                 measurement = Integer.toString(cup);
-                measurement = measurement + " cups\n";
+                measurement = measurement + " cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup3to4 > 0)
             {
                 measurement = Integer.toString(cup3to4);
-                measurement = measurement + " 3/4 cups\n";
+                measurement = measurement + " 3/4Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to2 > 0)
             {
                 measurement = Integer.toString(cup1to2);
-                measurement = measurement + " 1/2 cups\n";
+                measurement = measurement + " 1/2Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to4 > 0)
             {
                 measurement = Integer.toString(cup1to4);
-                measurement = measurement + " 1/4 cups\n";
+                measurement = measurement + " 1/4Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(cup1to8 > 0)
             {
                 measurement = Integer.toString(cup1to8);
-                measurement = measurement + " 1/8 cups\n";
+                measurement = measurement + " 1/8Cups ";
                 unit[count] = measurement;
                 count++;
             }
             if(tbs > 0)
             {
                 measurement = Integer.toString(tbs);
-                measurement = measurement + " tablespoons\n";
+                measurement = measurement + " tablespoons ";
                 unit[count] = measurement;
                 count++;
             }
             if(tsp > 0)
             {
                 measurement = Integer.toString(tsp);
-                measurement = measurement + " teaspoons\n";
+                measurement = measurement + " teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
             if(tsp1to2 > 0)
             {
                 measurement = Integer.toString(tsp1to2);
-                measurement = measurement + " 1/2 teaspoons\n";
+                measurement = measurement + " 1/2Teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
             if(tsp1to4 > 0)
             {
                 measurement = Integer.toString(tsp1to4);
-                measurement = measurement + " 1/4 teaspoons\n";
+                measurement = measurement + " 1/4Teaspoons ";
                 unit[count] = measurement;
                 count++;
             }
@@ -357,7 +352,7 @@ public class MesurementConverter
         }
         else//Doesnt need conversion
         {
-            answer = "A pinch";
+            answer = "Pinch";
         }
         
         return answer;//Returns converted item or not converted.
@@ -406,7 +401,7 @@ public class MesurementConverter
     
     public static double quarterCupsToOunces(double user)
     {
-        double answer = user * OUNCES_PER_HALFCUP;
+        double answer = user * OUNCES_PER_QUARTERCUP;
         return answer; 
     }
     
@@ -472,7 +467,7 @@ public class MesurementConverter
     
     public static double quarterCupsToGrams(double user)
     {
-        double answer = user * OUNCES_PER_HALFCUP;
+        double answer = user * OUNCES_PER_QUARTERCUP;
         answer = answer * GRAMS_PER_OUNCE;
         return answer; 
     }
